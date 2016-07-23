@@ -1,3 +1,4 @@
+set.seed(42)
 # loading required libraries
 library(cluster)
 
