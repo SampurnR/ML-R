@@ -1,0 +1,5 @@
+set.seed(42)
+dat <- matrix(rnorm(100), nrow = 10, ncol = 10)
+hc <- hclust(dist(dat), method = "average")
+print(hc)
+print(plot(hc))
